@@ -1,0 +1,331 @@
+/**
+ * styles.css v1.1
+ * Varsity Styles
+ *
+ * 
+ */
+h2 .label {
+  vertical-align: middle;
+  font-size: 43%;
+}
+h3 small {
+  font-size: 75%;
+}
+h3 > small > i {
+  color: #fff;
+  padding-left: 8px;
+}
+.side-header {
+  background-color: #55443d;
+}
+.side-left {
+  background-color: #a6a8a8;
+}
+.side-nav-item.active > a {
+  color: #ecf0f1;
+  background-color: #848787;
+  border-color: #848787;
+}
+.side-nav-item.active > a:hover {
+  background-color: #919494;
+}
+.side-nav-item > a:hover,
+.side-nav-item > a:focus {
+  background-color: #919494;
+}
+.side-nav a {
+  color: #fff;
+}
+.navbar-text {
+  margin-left: 39px;
+}
+.content-header {
+  background-color: #c43d41;
+}
+.header-text {
+  font-size: 0.6em;
+  margin-right: 10px;
+}
+.btn-icon,
+.btn-icon:focus {
+  color: rgba(0, 0, 0, 0.5);
+}
+.btn-danger {
+  color: #fff;
+  background-color: #c43d41;
+  border: none;
+}
+.btn-danger:hover {
+  background-color: #cc585c;
+}
+.legend {
+  margin: 6px 0 8px 28px;
+}
+#legend-progress .col-xs-2 {
+  width: 20%;
+  text-align: center;
+}
+.hidden-inline-xs {
+  display: inline !important;
+}
+.teamlist .media .media-object {
+  width: 65px;
+  height: 65px;
+}
+.teamlist .media .media-body {
+  font-size: 1.2em;
+}
+.team-name {
+  font-weight: 500;
+}
+.table .progress {
+  margin-bottom: 0px;
+}
+#ticketpanel .btn-icon {
+  padding-top: 0;
+  padding: 0 5px;
+  font-size: 1.7em;
+  margin-top: -3px;
+}
+#ticketpanel p {
+  font-size: 1.3em;
+}
+.topic-description p {
+  font-size: 1.5em;
+  line-height: 1.9em;
+}
+.radio-inline,
+.checkbox-inline {
+  display: inline-block;
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+.iradio_line-red {
+  background: #c43d41;
+  margin: 5px 0;
+  padding: 15px 15px 15px 38px;
+  font-size: 1em;
+}
+.iradio_line-red.hover {
+  background: #cc585c;
+}
+.radiobutton-caption {
+  margin-top: 4%;
+  padding-right: 20%;
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+.radiobutton-caption h4 {
+  margin-bottom: 5px;
+}
+.radiobutton-caption p {
+  margin-bottom: 18px;
+}
+.contactinfo input {
+  width: 300px;
+}
+.signin {
+  background: url('http://www.varsitytechnologies.com/wp-content/themes/basetheme/bgimages/Home1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.signin:before,
+.signup:before,
+.recover:before {
+  background-color: rgba(255, 255, 255, 0);
+}
+#loginbg {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 100px;
+  padding-bottom: 70px;
+}
+.pc-details p {
+  color: #fff;
+}
+#feedback p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  padding-right: 27%;
+}
+#teamlink {
+  margin: 5px 0px 9px 15px;
+  display: inline-block;
+}
+body,
+.content,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+.app-header {
+  color: #55443d;
+}
+.bg-primary {
+  background-color: #a6a8a8 !important;
+}
+.bg-success {
+  background-color: #a1cc7a !important;
+}
+.bg-info {
+  background-color: #d7cbae !important;
+}
+.bg-warning {
+  background-color: #fcba38 !important;
+  color: #fff;
+}
+.bg-danger {
+  background-color: #c43d41 !important;
+}
+.label-primary {
+  background-color: #a6a8a8 !important;
+}
+.label-success {
+  background-color: #a1cc7a !important;
+}
+.label-info {
+  background-color: #d7cbae !important;
+}
+.label-warning {
+  background-color: #fcba38 !important;
+}
+.label-danger {
+  background-color: #c43d41 !important;
+}
+.text-primary {
+  color: #7f8282 !important;
+}
+.text-success {
+  color: #a1cc7a !important;
+}
+.text-info {
+  color: #c6b58c !important;
+}
+.text-warning {
+  color: #fbac10 !important;
+}
+.text-danger {
+  color: #c43d41 !important;
+}
+.progress-bar-primary {
+  background-color: #a6a8a8 !important;
+}
+.progress-bar-success {
+  background-color: #a1cc7a !important;
+}
+.progress-bar-info {
+  background-color: #d7cbae !important;
+}
+.progress-bar-warning {
+  background-color: #fcba38 !important;
+}
+.progress-bar-danger {
+  background-color: #c43d41 !important;
+}
+.bordered-smart {
+  border: solid #d7cbae;
+}
+.btn:active,
+.btn.active {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.border-danger {
+  border-color: #c43d41 !important;
+}
+#DataTables_Table_0_wrapper .row:last-child,
+#DataTables_Table_0_wrapper .row:first-child {
+  display: none;
+}
+@media only screen and (max-width: 320px) {
+  .legend {
+    line-height: 1.7em;
+    display: block;
+  }
+  .legend small {
+    display: block;
+  }
+  #DataTables_Table_1_wrapper div,
+  #tickets_wrapper div,
+  div.dataTables_filter label,
+  #tickets_filter {
+    float: none !important;
+    margin-bottom: 8px;
+  }
+  .panel-body-heading .pb-title,
+  h2.box-heading {
+    font-size: 16px;
+  }
+  .media-body .text-muted,
+  .teamlist .media-body h4,
+  #ticketpanel .mpc-attach p {
+    font-size: 14px;
+  }
+  .media-body .text-muted small,
+  .teamlist .media-body h4 small,
+  #ticketpanel .mpc-attach p small {
+    display: block;
+  }
+  .media-object-circle {
+    display: none;
+  }
+  .profile-cover .pc-details {
+    width: 320px;
+  }
+  #feedback p {
+    font-size: 1em;
+    line-height: 1.6em;
+    padding-right: 1%;
+  }
+  #legend-progress .col-xs-2 {
+    font-size: 8px;
+    padding: 0;
+    width: 20%;
+  }
+  #ticketpanel p {
+    font-size: 1em;
+  }
+  .btn-group-sm > .btn {
+    padding: 5px 5px;
+  }
+  .table-responsive .datatables tbody tr td:nth-child(2),
+  .table-responsive .datatables tbody tr td:nth-child(3),
+  .table-responsive .datatables thead tr th:nth-child(2),
+  .table-responsive .datatables thead tr th:nth-child(3),
+  #tickets th:nth-child(4),
+  #tickets td:nth-child(4) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .media-object-circle {
+    display: none;
+  }
+  #ticketpanel .mpc-attach p {
+    font-size: 16px;
+  }
+  #ticketpanel .mpc-attach p small {
+    display: block;
+  }
+}
+.submit-wrap {
+  float: right;
+}
+@media only screen and (max-width: 768px) {
+  .submit-wrap {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-inline-xs {
+    display: none !important;
+  }
+}
