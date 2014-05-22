@@ -1,3 +1,13 @@
+From our meeting:
+
+“remove search at top”
+
+“stay signed in” text wrong color
+
+remove “create account”
+
+—— theme developers notes: ———
+
 Just Create a beautiful theme with a modern design and mobile-first, we call Syrena. Can be used for Admin, Dashboard and WebApp. Easy to custom, the css files separate for each section. **Enjoy It!!**
 
 ## Features ##
